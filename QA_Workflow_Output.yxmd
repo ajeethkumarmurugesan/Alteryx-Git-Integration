@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="402" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>230519_Revenue_Reporting.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Entity: Internal ID" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Source Rev. Rec. Document Number" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Legacy SFDC Account ID" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Subsidiary: Name" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Segment (Original)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Item: Name" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Account (Line): Name (GL-style)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Jaggaer One SKU" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Adjustment" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="SKU" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Allocation (Local Currency)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Segment (NS)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Product Family (NS)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Global Item (Y/N)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Hosting Environment" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Customer Name (NS)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Contracting Customer SFDC Account ID" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Segment" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Start Date" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="End Date" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="diff" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="cumulative_months" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="csum_revenue_allocation" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="mrr" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="ARR (Local Currency)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="FX Rate (Monthly)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Allocation (Recognised)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="ARR (Recognised)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="FX Rate (Fixed)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="fx_max_date" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Allocation (Fixed FX)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="ARR (Fixed FX)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="ID" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Account Name (SFDC)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Industry (SFDC)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="No. of Employees (SFDC)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Industry Sub Classification (SFDC)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="No. of Employees - Grouped (SFDC)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Territory (SFDC)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Jaggaer Industry (SFDC)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Jaggaer Vertical (SFDC)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Starting Date (SFDC)" size="254" source="File: D:\Jaggaer\230519 Aws to Alteryx Conversion (1)\Output\230519_Revenue_Reporting.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="402" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Revenue_Reporting.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Entity: Internal ID" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Source Rev. Rec. Document Number" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Legacy SFDC Account ID" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Subsidiary: Name" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Segment (Original)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Item: Name" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Account (Line): Name (GL-style)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Jaggaer One SKU" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Adjustment" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="SKU" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Allocation (Local Currency)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Segment (NS)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Product Family (NS)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Global Item (Y/N)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Hosting Environment" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Customer Name (NS)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Contracting Customer SFDC Account ID" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Segment" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Start Date" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="End Date" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="diff" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="cumulative_months" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="csum_revenue_allocation" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="mrr" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="ARR (Local Currency)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="FX Rate (Monthly)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Allocation (Recognised)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="ARR (Recognised)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="FX Rate (Fixed)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="fx_max_date" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Allocation (Fixed FX)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="ARR (Fixed FX)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="ID" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Account Name (SFDC)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Industry (SFDC)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="No. of Employees (SFDC)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Industry Sub Classification (SFDC)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="No. of Employees - Grouped (SFDC)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Territory (SFDC)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Jaggaer Industry (SFDC)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Jaggaer Vertical (SFDC)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+            <Field name="Starting Date (SFDC)" size="254" source="File: C:\Users\AjeethKumar\Downloads\ARR workflow packaged 050923\Output\Revenue_Reporting.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="522" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" type="Date" size="10" />
+            <SelectField field="ARR (Fixed FX)" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="534" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ARR (Fixed FX)" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="654" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Subsidiary: Name" action="GroupBy" rename="Subsidiary: Name" />
+            <SummarizeField field="ARR (Fixed FX)" action="Sum" rename="Sum_ARR (Fixed FX)" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="678" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Subsidiary: Name" action="GroupBy" rename="Subsidiary: Name" />
+            <SummarizeField field="ARR (Fixed FX)" action="Sum" rename="Sum_ARR (Fixed FX)" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="894" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Subsidiary: Name" />
+            <Field field="Sum_ARR (Fixed FX)" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Subsidiary: Name" />
+            <Field field="Sum_ARR (Fixed FX)" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Subsidiary: Name" selected="True" rename="Right_Subsidiary: Name" input="Right_" />
+                <SelectField field="Right_Sum_ARR (Fixed FX)" selected="True" rename="Right_Sum_ARR (Fixed FX)" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="558" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Entity: Internal ID] = "73720" and [Date]='2023-03-01'</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Entity: Internal ID] = "73720" and [Date]='2023-03-01'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="726" y="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Entity: Internal ID] = "73720" and [Date]='2023-03-01'</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Entity: Internal ID] = "73720" and [Date]='2023-03-01'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="678" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="ARR (Fixed FX)" action="Sum" rename="Sum_ARR (Fixed FX)" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="978" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="ARR (Fixed FX)" action="Sum" rename="Sum_ARR (Fixed FX)" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="594" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&lt;</Operator>
+            <Field>Date</Field>
+            <Operands>
+              <PeriodDate>2023-06-13 21:56:39</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2023-06-13 21:56:39</StartDate>
+              <EndDate>2023-06-13 21:56:39</EndDate>
+              <Operand>2023-04-01</Operand>
+              <DateType>fixed</DateType>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Date] &lt; "2023-04-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="390" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>230519_Revenue_Reporting.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Entity: Internal ID" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Source Rev. Rec. Document Number" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Legacy SFDC Account ID" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Subsidiary: Name" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Segment (Original)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Item: Name" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Account (Line): Name (GL-style)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Jaggaer One SKU" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Adjustment" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="SKU" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Allocation (Local Currency)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Segment (NS)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Product Family (NS)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Global Item (Y/N)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Hosting Environment" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Customer Name (NS)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Contracting Customer SFDC Account ID" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Segment" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Start Date" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="End Date" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="diff" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="cumulative_months" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="csum_revenue_allocation" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="mrr" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="ARR (Local Currency)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="FX Rate (Monthly)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Allocation (Recognised)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="ARR (Recognised)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="FX Rate (Fixed)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="fx_max_date" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Revenue Allocation (Fixed FX)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="ARR (Fixed FX)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="ID" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Account Name (SFDC)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Industry (SFDC)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="No. of Employees (SFDC)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Industry Sub Classification (SFDC)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="No. of Employees - Grouped (SFDC)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Territory (SFDC)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Jaggaer Industry (SFDC)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Jaggaer Vertical (SFDC)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+            <Field name="Starting Date (SFDC)" size="254" source="File: C:\Users\AjeethKumar\JMAN Group Ltd\JAG_009 Convert Lambda Into Alteryx - Documents\02. Alteryx workflows\230607 Aws to Alteryx Conversion\Output\230519_Revenue_Reporting.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>QA_Workflow_Output</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1587a269-75b3-4b20-b540-6734cf3497f0" />
+      <Telemetry>
+        <PreviousWorkflowId value="cb9a89e3-1feb-4a01-a2a3-2890a600cb67" />
+        <OriginWorkflowId value="cb9a89e3-1feb-4a01-a2a3-2890a600cb67" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
